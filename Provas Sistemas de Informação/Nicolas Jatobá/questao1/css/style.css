@@ -1,0 +1,70 @@
+body{
+  font-weight: normal;
+  font-family: Tahoma;
+
+}
+body{
+  margin: 0px auto;
+}
+h1{
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin: 0px auto;
+  font-weight: normal;
+
+}
+.direita p{
+    margin-bottom: 10px;
+    width: 850px;
+}
+h2{
+  font-weight: normal;
+}
+ul{
+  margin: 0px auto;
+  list-style: none;
+
+}
+
+.esquerda ul{
+  padding: 80px;
+}
+
+.esquerda li{
+  margin-bottom: 10px;
+}
+
+.esquerda{
+  margin-top: 0px;
+  background-color: grey;
+  width: 480px;
+  float: left;
+  height: 705px;
+}
+.direita{
+    margin: 0px auto;
+    width: 1100px;
+    float: right;
+    height: 600px;
+
+}
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  width: 1600px;
+
+}
+
+
+footer p{
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: 0px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

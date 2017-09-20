@@ -1,0 +1,18 @@
+.Titulo{
+	border-radius: 50px, 10px, 50px, 20px;
+	color: white;
+	background-color: black;
+}
+.font{
+	font-style: Tahoma;
+}
+.extras{
+	float:left; 
+	border-radius: 6px, 40px;
+	background-color: gray;
+}
+.rodape{
+	color: white;
+	border-radius: 50px, 1px, 50px, 1px;
+	background-color: black;
+}

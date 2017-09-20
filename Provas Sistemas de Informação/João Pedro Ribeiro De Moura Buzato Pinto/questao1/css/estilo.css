@@ -1,0 +1,72 @@
+*
+{
+	font-family: "Tahoma", serif;
+	font-weight: normal;
+}
+body
+{
+	width: 100%;
+	margin: 0;
+
+}
+.clearfix
+{
+	clear: both;
+}
+#cabecalho
+{
+	height: 15%;
+	width: inherit;
+	text-align: center;
+	background-color: #000; 
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+#cabecalho h1
+{
+	color: #FFF;
+}
+main
+{
+	height: 600px;
+	width: inherit;
+
+}
+
+#menu
+{
+	background-color: #CCC;
+	width: 	15%;
+	height: inherit;
+	float: left;
+}
+#menu a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+footer
+{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #000;
+	width: inherit;
+	height: 50px;
+
+}
+footer h4
+{
+	color: #fff;
+
+}
+article
+{
+		width: 1000px;
+		float: left;
+}
+article p
+{
+	margin-bottom: 10px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Locadora de Automoveis</title>
+</head>
+<body>
+	<h1>Locadora de Automóveis</h1>
+	<ul>
+		<li>Lojas</li>
+		<li>Frota</li>
+		<li>Tarifas</li>
+		<li>Reservas</li>
+	</ul>
+	<img src="./carro.png">
+	<ul>
+		<li><strong>TelefoneCentral</strong><p>+55 21 1234-5678</p></li>
+		<li><strong>Email</strong> rent@loca4rodas.com.br</li>
+	</ul>
+</body>
+</html>

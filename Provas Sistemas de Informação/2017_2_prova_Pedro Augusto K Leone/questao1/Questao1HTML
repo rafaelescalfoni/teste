@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+	<title>City Gallery</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="./Questao1Css.css">
+	<div class="font">
+		<div class="Titulo"><h1>City Gallery</h1></div>
+		<div class="Texto"><h2>London</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum suscipit tristique. Nulla euismod eleifend diam sit amet malesuada. In posuere mauris sit amet ligula scelerisque suscipit. Nullam sit amet sodales tortor. Sed commodo quam eu urna rutrum, a cursus velit dignissim. Maecenas placerat tortor metus, non dictum mi viverra at.</p> 
+
+			<p>Duis nec placerat justo. Phasellus non metus imperdiet, molestie lacus quis, pulvinar quam. Ut lacinia, quam finibus tincidunt posuere, magna mi suscipit lacus, a hendrerit dolor nulla quis massa. Vivamus vehicula libero non ultricies venenatis. Proin vel tellus sagittis, molestie lacus nec, interdum ligula.</p>
+		</div>
+		<div class="rodape"><p>Copyright &copy; WESchools.com</p></div>
+		<div class="extras">
+			<ol>
+				<li>london</li>
+				<li>Paris</li>
+				<li>Tokio</li>
+			</ol>
+		</div>
+	</div>
+</body>
+</html>

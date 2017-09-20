@@ -1,0 +1,33 @@
+.form  {
+	width: 500px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.form input {
+	display: block;
+	margin: 5px;
+}
+
+.form label {
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.form button {
+	float: left;
+	margin: 5px;
+}
+
+.new {
+	position: relative;
+	left: -150px;
+	top: -20px;
+}
+
+.clearfix {
+	clear: both;
+}
+.news {
+	position: relative;
+}

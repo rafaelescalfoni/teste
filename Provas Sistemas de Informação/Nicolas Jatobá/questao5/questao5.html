@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <form action="/clientes" method="post">
+        <fieldset>
+          <legend>Cadastro de Clientes</legend>
+          <label for="nome">Nome</label>
+          <br>
+          <input type="text" size="30" maxlength="30" name="nome" required placeholder="Digite seu nome">
+          <br>
+          <br>
+          <label for="endereco">Endereço</label>
+          <br>
+          <input type="text" size="50" maxlength="50" name="endereco" required placeholder="Digite seu endereço">
+          <br>
+          <br>
+          <label for="email">Email</label>
+          <br>
+          <input type="text" size="30" maxlength="30" name="email" required placeholder="Digite seu email">
+          <br>
+          <br>
+          <input type="checkbox" name="newsletter" required>
+          <label for="newsletter"> Desejo receber newsletter</label>
+          <br>
+          <br>
+          <button type="submit" name="cadastrar">Cadastrar</button>
+          <button type="reset" name="cancelar">Cancelar</button>
+        </fieldset>
+    </form>
+  </body>
+</html>

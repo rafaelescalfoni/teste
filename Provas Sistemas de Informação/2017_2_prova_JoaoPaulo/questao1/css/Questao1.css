@@ -1,0 +1,32 @@
+body{
+	font:tahoma;
+	font-family:sans-serif;
+}
+
+.header{
+	padding-top:15px;
+	padding-bottom:20px;
+	background-color:black;
+}
+
+.footer{
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:black;
+}
+
+.aside{
+	background-color:gray;
+}
+
+
+.article{
+	float:right;
+}
+.article p{
+	margin:10px;
+}
+
+.clearfix{
+	float:none;
+}

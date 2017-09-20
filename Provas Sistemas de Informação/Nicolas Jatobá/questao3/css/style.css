@@ -1,0 +1,16 @@
+td{
+  border: 1px solid grey;
+  padding: 4px;
+
+  padding-right: 10px;
+}
+
+th{
+  border: 1px solid grey;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+table{
+  border: 1px solid grey;
+}

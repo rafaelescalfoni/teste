@@ -1,0 +1,61 @@
+*{
+	font-family: Tahoma sans-serif;
+}
+
+body{
+	width: 1583px;
+	height: 816px;
+}
+
+header{
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+header h1{
+	color: white;
+	position: relative;
+	left: 50%;
+	right: 50%;
+}
+
+.menu{
+	position: absolute;
+	top: 15.5%;
+	left: 0;
+	background-color: grey;
+	height: 90%;
+	width: 30%;
+}
+
+.principal{
+	position: absolute;
+	float: right;
+	left: 30%;
+	top: 15%;
+	padding: 10px;
+}
+
+
+footer{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+footer p{
+	color: white;
+	position: relative;
+	left: 50%;
+	right: 50%;
+}

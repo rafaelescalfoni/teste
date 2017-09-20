@@ -1,0 +1,18 @@
+* {
+	font-family: "Tahoma", sans-serif;
+}
+body {
+	margin: 0;
+}
+header h2 {
+	margin-left: 30px;
+}
+.titulo h4 {
+	margin-left: 30px;
+}
+ul {
+	list-style-type: disc;
+}
+ul li a {
+	border-style: none;
+}

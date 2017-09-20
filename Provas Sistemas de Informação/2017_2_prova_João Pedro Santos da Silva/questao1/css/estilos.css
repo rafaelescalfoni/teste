@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	font-family: "Tahoma", "sans-serif";
+
+}
+
+header {
+	background-color: black;
+	height: 100px;
+
+}
+
+header h1{
+	color: white;
+	text-align: center;
+	padding: 0 60px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+
+aside{
+	/*border: 1px solid;*/
+	width: 250px;
+	height: 600px;
+	padding: 20px 30px 40px 20px;
+	background-color: lightgrey;
+}
+
+aside h3{
+	
+	font-size: 0.8em;
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+
+main{
+	/*border: 1px solid;*/
+	height: 355px;
+	position: absolute;
+	top: 101px; 
+	left: 300px;
+}
+
+main h2{
+	font-weight: normal;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+main p{
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+
+
+footer{
+	position: absolute;
+	background-color: black; 
+	color: white;
+	text-align: center;
+	height: 30px;
+	bottom: 0;
+	width: 1600px;
+	
+}
+
+footer h3{
+	font-weight: normal;
+	font-size: 0.8em;
+	padding: 5px;
+}

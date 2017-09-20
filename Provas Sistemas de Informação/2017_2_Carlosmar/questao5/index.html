@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Cadastro Clientes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<fieldset class="form">
+		<legend>Cadastro de Clientes</legend>
+		<form method="post" action="/clientes">
+			<labe>Nome</label>
+			<input type="text" name="nome" placeholder="Digite seu nome" maxlength="30">
+			<labe>Endereço</label>
+			<input type="text" name="endereco" placeholder="Digite seu endereço" maxlength="50">
+			<labe>Email</label>
+			<input type="email" name="email" placeholder="Digite seu Email" maxlength="30" class="email">
+			<input type="checkbox" name="news" class="news">
+			<div class="clearfix"></div>
+			<label class="new">Desejo receber newsletter</label>
+			<button type="subimit">Cadastrar</button>
+			<button type="reset">Cancelar</button>
+		</form>
+	</fieldset>
+
+</body>
+</html>

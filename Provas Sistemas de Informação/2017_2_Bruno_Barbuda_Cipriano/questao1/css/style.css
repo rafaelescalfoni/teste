@@ -1,0 +1,38 @@
+body {
+	font-family: "Tahoma", sans-serif;
+	position: relative;
+}
+
+.cabecalho {
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+.menu {
+	float: left;
+	display: block;
+	background-color: grey;
+	list-style-type: none;
+	padding: 10px 200px 100px 0px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	position: relative;
+
+}
+
+.london {
+	position: relative;
+}
+
+
+h2 p {
+	float: right;
+	text-align: center;
+}

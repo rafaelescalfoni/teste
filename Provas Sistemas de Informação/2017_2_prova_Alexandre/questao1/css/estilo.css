@@ -1,0 +1,55 @@
+* {
+	font-family: "Tahoma", sans-serif;
+}
+body {
+	margin: 0;
+	height: 920px;
+}
+.cabecalho {
+	padding-top: 15px;
+	padding-bottom: 20px;
+	height: 75px;
+	background-color: black;
+	margin: 0;
+}
+.cabecalho h2 {
+	text-align: center;
+	color: white;
+}
+.menu-lateral {
+	position: absolute;
+	margin-left: 0;
+	background-color: grey;
+	width: 330px;
+	height: 800px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+
+}
+.menu-lateral ul {
+	display: block;
+	list-style-type: none;
+}
+.principal {
+	position: relative;
+	margin-left: 355px;
+	width: 550px;
+	height: 800px;
+}
+.principal p {
+	font-size: 1.5em;
+	width: 410px;
+}
+.paragrafo {
+	margin-bottom: 10px;
+}
+.rodape {
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: black;
+}
+.rodape h5 {
+	text-align: center;
+	color: white;
+}

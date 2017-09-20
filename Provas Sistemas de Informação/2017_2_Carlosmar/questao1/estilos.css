@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	font-family: "Tahoma", sans-serif;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.cabecalho {
+	color: #fff;
+	background-color: #000;
+	margin: 0 ;
+	padding: 15px 0 20px 0;
+	text-align: center;
+}
+
+.cabecalho h1 {
+	font-weight: normal;
+	
+}
+
+.menu {
+	background-color: #888;
+	margin: 0;
+	width: 300px;
+	height: 500px;
+	position: relative;
+	top: -16px;
+}
+
+.menu ul {
+	list-style: none;
+
+}
+
+.menu li {
+	padding: 5px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #000;
+}
+
+.conteudo {
+	width: 900px;
+	position: relative;
+	left: 350px;
+	bottom: 500px;
+}
+
+.conteudo h3 {
+	font-weight: normal;
+}
+
+.rodape {
+	background-color: #000;
+	color: #fff;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	position: relative;
+	top: -250px;
+}

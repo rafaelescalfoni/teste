@@ -1,0 +1,22 @@
+* {
+	font-family: "Tahoma", sans-serif;
+}
+body {
+	margin: 0;
+}
+body h2 {
+	margin-left: 25px;
+	font-weight: normal;
+}
+.numero {
+	list-style-type: upper-roman;
+}
+.circulo {
+	list-style-type: circle;
+}
+ol li {
+	margin-left: 25px;
+}
+ul li {
+	margin-left: 5px;
+}

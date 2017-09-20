@@ -1,0 +1,21 @@
+h3{
+	font-weight: normal;
+}
+
+footer li{
+	
+	font-weight: bold;
+	margin-top: 0;
+}
+footer p{
+	
+	margin-top: 0;
+}
+
+footer h4{
+	position: absolute;
+	bottom: 247px;
+	left: 100px;
+	font-weight: normal;
+
+}
