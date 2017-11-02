@@ -1,0 +1,14 @@
+a. formulário deverá ser validado utilizando HTML5 e deverá submeter os dados via POST para a URL "/clientes"
+	- não envia para /clientes
+b. Todos os campos são obrigatórios
+	- não
+c. O campo Nome deverá ter até 30 caracteres, tamanho 30.
+	- não limita
+d. O campo Endereço deverá ter até 50 caracteres, tamanho 50 caracteres.
+	- não limita
+e. O campo de email deverá ter até 30 caracteres, validar formatação de email.
+	- não limita
+f. O botão cadastrar submete o formulário.
+	- ok
+g. O botão cancelar limpa o formulário.
+	- ok

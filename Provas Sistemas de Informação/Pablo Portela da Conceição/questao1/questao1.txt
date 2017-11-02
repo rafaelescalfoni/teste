@@ -1,0 +1,15 @@
+Itens:
+I. Todo o sitem deve utilizar a fonte do tipo "Tahoma", em último caso, uma fonte não serifada
+	- ok
+II. Sempre que possível, utilize marcações semânticas
+	- ok
+III. Nenhuma fonte deve estar em negrito
+	- não
+IV. O cabeçalho deve ter espaçamento interno de 15px acima do texto e 20px abaixo do texto
+	- ok
+V. O rodapé deve ter espaçamento interno de 5px superior e inferior
+	- ok
+VI. Os parágrafos de texto devem estar espaçados entre si em 10px.
+	- não
+
+Erro no layout
