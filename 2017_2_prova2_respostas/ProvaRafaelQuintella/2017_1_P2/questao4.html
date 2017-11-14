@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Prova II - 2015.2</title>
+
+		<link rel="stylesheet" type="text/css"  href="./bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css"  href="./css/estilo.css" />
+
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+
+		<script type="text/javascript" src="./js/questao4.js"></script>
+	</head>
+
+
+	<body>
+		<div id="questao4">
+						<h1>Questão 4</h1>
+						<p>
+							Um grupo de artesãos decidiu expandir seus negócios através de um site de vendas - ArtCom. Programe o módulo de cálculo de frete, conforme as seguintes regras de negócio:
+						</p>
+						<ul>
+							<li>O site só atenderá clientes que residam na faixa de CEP entre 20.000 e 30.000. Para os demais, o ArtCom irá exibir um popup com a seguinte mensagem: <br />"Prezado cliente, <br/> Lamentamos, pois estamos em fase de expansão e por enquanto não atendemos sua região. <br/> Atenciosamente, ArtCom"</li>
+							<li>Por se tratar de um varejo de artesãos, só serão aceitos pedidos de no máximo 20 volumes por produto. Caso o cliente compre além, o site deve exibir um popup com a seguinte mensagem: <br />"Prezado cliente, <br />Somos um pequeno varejo destinado a atender consumidores domésticos. <br/>Atenciosamente, ArtCom.".</li>
+							<li>O cálculo do frete deverá ser feito da seguinte forma: <br/> CEP entre 20.000 e 25.000, R$5,00 + R$1,00 por volume<br/> CEP entre 25.000 e 30.000, R$7,50 + R$1,25 por volume</li>
+							<li>O valor total da compra é o valor dos produtos + frete</li>
+							<li>Os tipos de objetos devem ser escolhidos a partir de um array de itens: <br />
+								itens = [
+										{ <br />
+										"id" : "1",<br />
+										"nome": "Vaso",<br />
+										"dimensao": "10x30cm",<br />
+										"material": "ceramica",<br />
+										"artesao": "Ronaldo Moreira",<br />
+										"valor": "20"<br />
+										}, ...]
+							</li>
+						</ul>
+						<p>
+							Seu formulário deverá validar os dados de entrada, avisando caso a entrada seja inválida.
+						</p>
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">Vendas - ArtCom</h3>
+							</div>
+							<div class="panel-body">
+								<div>
+									<h3>Cálculo de Frete</h3>
+
+									<div class="form-group">
+										<label>Nome</label>
+										<input type="text" placeholder="Nome" />
+									</div>
+									<div class="form-group">
+										<label>CEP</label>
+										<input id ="cep" type="text" placeholder="Código postal" />
+									</div>
+									<hr />
+
+									<h4>Adicionar a lista</h4>
+									<div class="form-group">
+										<label>Produto</label>
+										<select id="produtosCmb"><option value="item.id">item.nome</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label>Quantidade</label>
+										<input id = "quantidade" type="text" />
+									</div>
+									<div class="form-group">
+										<button class="btn btn-success">Adicionar</button>
+									</div>
+										<h4>Lista de Compras</h4>
+										<table class="table table-striped">
+											<tr>
+												<th>Produto</th>
+												<th>Quantidade</th>
+												<th>Valor Unitário</th>
+												<th>Valor Total</th>
+												<th></th>
+											</tr>
+											<tr>
+												<td>Vaso cerâmico</td>
+												<td>2</td>
+												<td>R$ 20,00</td>
+												<td>R$ 40,00</td>
+												<td><span class="glyphicon glyphicon-trash"></span></td>
+											</tr>
+											<tr>
+												<td>Porta chapéus</td>
+												<td>1</td>
+												<td>R$ 50,00</td>
+												<td>R$ 50,00</td>
+												<td><span class="glyphicon glyphicon-trash"></span></td>
+											</tr>
+											<tr>
+												<td colspan="3">Total</td>
+												<td colspan="2"> R$ 90,00</td>
+											</tr>
+										</table>
+
+										<button id="botao_calcular"type="submit" onclick="calculaTotal();" class="btn btn-success">Finalizar compra</button>
+										<h4>O total a ser pago é R$<span id="valorTotal"></span></h4>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<aside class="col-md-2">
+					<h3>Questões</h3>
+					<ol>
+						<li><a id="lnkQuestao1">Conversão de escalas</a></li>
+						<li><a id="lnkQuestao2">Números primos</a></li>
+						<li><a id="lnkQuestao3">Calculando salários</a></li>
+						<li><a id="lnkQuestao4">Validando formulários</a></li>
+					</ol>
+				</aside>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<script type="text/javascript">
+			function getUrlVars() {
+				var vars = [], hash;
+				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+				for(var i = 0; i < hashes.length; i++){
+			        hash = hashes[i].split('=');
+			        vars.push(hash[0]);
+			        vars[hash[0]] = hash[1];
+			    }
+			    return vars;
+			}
+		</script>
+		<script>
+			$(function(){
+				$(filmes).each(index ,filmes){
+					var $fichatecnica = $("<h2/>").text("Ficha Técnica");
+					var $resumo = $("<p/>").text(filmes.resumo);
+					var $Genero = $("<h3/>").text("Generos :");
+					var $generos = $("<p/>").each(function(filmes , generos){
+							$(this).generos;
+					});
+					var $Classificação = $("<h3/>").text("Classificação");
+					var $classificacao = $("<p/>").text(filmes.classificacao);
+					var $Elenco = $("<h3/>").text("Elenco");
+					var $elenco = $("<p/>").each(function(filmes ,elenco){
+						$(this).elenco;
+					});
+					var $Semelhantes = $("<h3/>").text("Titulos Semelhantes");
+					var $semelhantes = $("container-fluid").each(function(filmes, semelhantes){
+						$(this).attr(id);
+
+					});
+
+				$("#container-fluid").attr(getUrlVars);
+
+			});
+		</script>
+
+		<script type="text/javascript" src="./js/index.js"></script>

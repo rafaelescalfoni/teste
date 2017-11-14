@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Prova II - 2016.1</title>
+
+		<link rel="stylesheet" type="text/css"  href="./bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css"  href="./css/estilo.css" />	 
+
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+		
+       
+		<script type="text/javascript" src="./js/index.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<header class="row">
+				<div class="logo col-md-offset-1" >
+					<img src="./img/cefet-rj.png" />
+				</div>
+				<div id="cabecalho" class="col-md-7 logo">
+					<p><strong>cefet/rj - centro federal de educação tecnológica celso suckow da fonseca</strong></p>
+					<p>UnED Nova Friburgo</p>
+					<p>Professor Rafael Escalfoni</p>
+					<p>Prova 2</p>
+					<p>Data: 15/06/2016</p>
+				</div>
+			</header>
+			<div class="row">
+				<div id="main" class="col-md-6 col-md-offset-2">
+
+					<h3 class="enunciado">Bem-vindo a prova de Fundamentos da Web!</h3>
+					<p class="enunciado">
+						Resolva as questões listadas ao lado, salve suas respostas pondo seu nome como autor em um comentário.
+					</p>
+					<p>
+						Cada questão deve ter seus próprios arquivos html e javascript.
+					</p>
+					<p id="saudacao" class="enunciado">
+						Boa-sorte!
+					</p>
+					
+						<h1>Questão 1</h1>
+						<p>Uma loja virtual disponibiliza um formulário para cálculo prévio de frete. Para isto, usa-se a seguinte regra:
+						</p>
+						<ol>
+							<li>Entregas para CEP entre 20.000-000 e 22.999-999 (distância de no máximo 15km do ponto de distribuição) - R$2,00 por item</li>
+							<li>Entregas para CEP acima de 23.000-000 (entregues pela empresa parceira Alfa) - R$3,00 por item</li>
+							<li>Entregas para CEP abaixo de 19.999-999 (entregues pela empresa parceira Beta) - R$3,50 por item</li>
+						</ol>
+						<p>Implemente o formulário para o cálculo de frete.</p>
+						<p>OBS:</p>
+						<ul>
+							<li>A quantidade mínima de itens é 1.</li>
+							<li>A resposta deve ser escrita no elemento de id="precoFrete"</li>
+						</ul>
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">Loja online</h3>
+							</div>
+							<div class="panel-body">
+								<div class="jumbotron">
+									<div>
+										<fieldset>
+											<div class="form-group">
+												<input type="text" placeholder="CEP de entrega" />
+											</div>
+											<div class="form-group">
+												<input type="text" placeholder="Produto" autocomplete="on" list="produtoList" />
+												<input type="number" placeholder="Quantidade" min="1" />
+												<datalist id="produtoList">
+													<option value="teste" />
+													<option value="teste2" />
+												</datalist>
+											
+												<button class="btn btn-primary">Calcular Frete</button>
+											</div>
+										</fieldset>
+									</div>
+									<div>
+										<h3>Adicional de frete:</h3>
+										<p>
+											R$<span>[resultado aqui]</span> 
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+			</div>
+		</div>
+	</body>
+</html>

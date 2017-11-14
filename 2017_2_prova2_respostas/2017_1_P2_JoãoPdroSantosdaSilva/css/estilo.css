@@ -1,0 +1,30 @@
+aside a {
+	cursor: pointer;
+}
+.centralizado{
+	float:left;
+	margin: 0 auto;
+	width: 1400px;
+}
+.logo {
+	float:left;
+}
+
+#cabecalho {
+	margin-top:10px ;
+}
+#cabecalho p {
+	text-transform: uppercase;
+	line-height: 12px;
+}
+
+#saudacao {
+	text-align: right;
+}
+
+.thumbnail{
+	margin-right: 20px;
+	height: 250px;
+	width: 280px;
+}
+

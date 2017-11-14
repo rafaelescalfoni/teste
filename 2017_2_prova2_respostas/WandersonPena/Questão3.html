@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Prova II - 2015.2</title>
+
+		<link rel="stylesheet" type="text/css"  href="./bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css"  href="./css/estilo.css" />	 
+
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+		
+       
+		<script type="text/javascript" src="./js/questao4.js"></script>
+	</head>
+	
+	
+	<body>
+		<script src="jquery.js">
+			$(#cep)(function){
+				if(cep <=20000 && cep >= 30000){
+					document.writer("CEP aceito!");
+				} else{
+					document.writer("Prezado cliente, Lamentamos, pois estamos em fase de expansão e por enquanto não atendemos sua região. Atenciosamente, ArtCom");
+				}
+			}
+			$(#quantidade){
+				if(this > 20){
+					alert("Prezado cliente, Somos um pequeno varejo destinado a atender consumidores domésticos. Atenciosamente, ArtCom.");
+				}
+			}
+			$(Function(){
+				if(cep >= 20000 && cep <=25000){
+					var frete = 5.00 + 1.00 * value(#quantidade);
+				}if(cep > 25000 && cep <=30000){
+					var frete = 7.00 + 1.25 * value(#quantidade);
+				}
+			});
+			$(Function(){
+				var valorTotal = frete + valorDosProdutos;
+			});
+		</script>
+		<div id="questao4">
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">Vendas - ArtCom</h3>
+							</div>
+							<div class="panel-body">
+								<div>
+									<h3>Cálculo de Frete</h3>
+									
+									<div class="form-group">
+										<label>Nome</label>
+										<input type="text" placeholder="Nome" />
+									</div>
+									<div class="form-group">
+										<label>CEP</label>
+										<input id ="cep" type="text" placeholder="Código postal" />
+									</div>
+									<hr />
+										
+									<h4>Adicionar a lista</h4>
+									<div class="form-group">
+										<label>Produto</label>
+										<select id="produtosCmb"><option value="item.id">item.nome</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label>Quantidade</label>
+										<input id = "quantidade" type="text" />
+									</div>
+									<div class="form-group">
+										<button class="btn btn-success">Adicionar</button>
+									</div>
+										<h4>Lista de Compras</h4>
+										<table class="table table-striped">
+											<tr>
+												<th>Produto</th>
+												<th>Quantidade</th>
+												<th>Valor Unitário</th>
+												<th>Valor Total</th>
+												<th></th>
+											</tr>
+											<tr>
+												<td>Vaso cerâmico</td>
+												<td>2</td>
+												<td>R$ 20,00</td>
+												<td>R$ 40,00</td>
+												<td><span class="glyphicon glyphicon-trash"></span></td>
+											</tr>
+											<tr>
+												<td>Porta chapéus</td>
+												<td>1</td>
+												<td>R$ 50,00</td>
+												<td>R$ 50,00</td>
+												<td><span class="glyphicon glyphicon-trash"></span></td>
+											</tr>
+											<tr>
+												<td colspan="3">Total</td>
+												<td colspan="2"> R$ 90,00</td>
+											</tr>
+										</table>
+  											
+										<button type="submit" onclick="calculaTotal();" class="btn btn-success">Finalizar compra</button>
+										<h4>O total a ser pago é R$[total]</h4>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>

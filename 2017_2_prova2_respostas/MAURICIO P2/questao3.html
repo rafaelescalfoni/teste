@@ -1,0 +1,60 @@
+<html>
+	<head>
+				<meta charset="utf-8" />
+				<title>Prova II - 2015.2</title>
+
+				<link rel="stylesheet" type="text/css"  href="./bootstrap/css/bootstrap.css" />
+				<link rel="stylesheet" type="text/css"  href="./css/estilo.css" />	 
+
+				<script type="text/javascript" src="./js/jquery.js"></script>
+				<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+				
+			   
+				<script type="text/javascript" src="./js/questao3.js"></script>
+		</head>		
+		
+		<body>
+			<div id="questao3">
+						<h1>Questão 3</h1>
+						<p>
+							Uma empresa resolveu dar um aumento de salário aos seus colaboradores e pretende lançar um site que permita calcular os reajustes. Faça um programa que recebe o salário de um colaborador e calcule reajuste segundo o seguinte critério, baseado no salário atual: 
+						</p>
+						<ul>
+							<li>Salários de R$ 880,00 (incluindo): aumento de 20% </li>
+							<li>Salários entre R$ 881,00 e R$ 1700,00: aumento de 15% </li>							
+							<li>Salários entre R$ 1701,00 e R$ 2500,00: aumento de 10%</li>
+							<li>Salários de R$ 1500,00 em diante: aumento de 5% </li>
+						</ul>
+						<p>
+							Seu formulário deverá validar os dados de entrada, avisando caso a entrada seja inválida.
+						</p>
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">Recursos humanos</h3>
+							</div>
+							<div class="panel-body">
+								<div>
+									<h3>Cálculo de Reajuste</h3>
+									<fieldset>
+										<label>Informe o salário atual</label>
+										<input type="text" placeholder="Salário atual" id="salario" />
+										<button id="submit" type="submit" class="btn btn-success">Calcular</button>
+									</fieldset>
+								</div>
+								<div>	
+									<h3>Resultado</h3>
+									<p>
+										Percentual de aumento aplicado:	<span id="percentual">[% da faixa salarial]</span>
+									</p>
+									<p>
+										Valor do aumento: R$ <span id="valorAumento">[diferença entre salário atual e reajuste]</span>
+									</p>
+									<p>
+										Salário reajustado: R$ <span id="salarioReajustado">[valor do salário reajustado]</span>
+									</p>
+								</div>
+							</div>
+						</div>
+			</div>
+		</body>
+</html>

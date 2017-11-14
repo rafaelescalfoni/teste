@@ -1,0 +1,4 @@
+[1114/185538.116:ERROR:process_reader_win.cc(142)] SuspendThread: Acesso negado. (0x5)
+[1114/185538.117:ERROR:exception_snapshot_win.cc(87)] thread ID 4192 not found in process
+[1114/185538.117:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[1114/185538.117:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Tentou-se acessar um processo de saída.  (0xc000010a)

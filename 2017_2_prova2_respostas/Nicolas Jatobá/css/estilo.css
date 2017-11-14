@@ -1,0 +1,41 @@
+aside a {
+	cursor: pointer;
+}
+.centralizado{
+	float:left;
+	margin: 0 auto;
+}
+.logo {
+	float:left;
+}
+ul li{
+		display: inline;
+		margin: 4px;
+}
+.thumbnail{
+	height: 350px;
+}
+.img{
+	height: 200px;
+	width: 300px;
+}
+#semelhantes {
+	float: left;
+	width: 1500px;
+}
+#semelhantes p{
+	width: 1000px;
+	padding: 0px;
+}
+#cabecalho {
+	margin-top:10px ;
+}
+#cabecalho p {
+	text-transform: uppercase;
+	line-height: 12px;
+}
+
+
+#saudacao {
+	text-align: right;
+}

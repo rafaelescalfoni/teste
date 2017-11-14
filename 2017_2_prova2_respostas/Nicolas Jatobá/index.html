@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Prova II - 2016.1</title>
+
+		<link rel="stylesheet" type="text/css"  href="./bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css"  href="./css/estilo.css" />	 
+
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+		<script type="text/javascript" src="./js/index.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<header class="row">
+				<div class="logo col-md-offset-1" >
+					<img src="./img/cefet-rj.png" />
+				</div>
+				<div id="cabecalho" class="col-md-7 logo">
+					<p><strong>cefet/rj - centro federal de educação tecnológica celso suckow da fonseca</strong></p>
+					<p>UnED Nova Friburgo</p>
+					<p>Professor Rafael Escalfoni</p>
+					<p>Prova 2</p>
+					<p>Data: 14/11/2017</p>
+				</div>
+			</header>
+			<div class="row">
+				<div id="main" class="col-md-6 col-md-offset-2">
+
+					<h3 class="enunciado">Bem-vindo a prova de Fundamentos da Web!</h3>
+					<p class="enunciado">
+						Resolva as questões listadas ao lado, salve suas respostas pondo seu nome como autor em um comentário.
+					</p>
+					<p>
+						Cada questão deve ter seus próprios arquivos html e javascript.
+					</p>
+					<p id="saudacao" class="enunciado">
+						Boa-sorte!
+					</p>
+					<div id="questao2">
+						<h1>Questão 1</h1>
+						
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">Locadora</h3>
+							</div>
+							<div class="panel-body">
+								<div>
+									<h3>Lista de títulos</h3>
+									<p>Faça um script que permita exibir todos os títulos disponíveis em uma locadora virtual</p>
+									<p>OBS:</p>
+									<ul>
+										<li>Utilize o arquivo HTML disponibilizado</li>
+										<li>O botão "Detalhes" deve ter o evento onClick="location.href='questao3_detalhes.html?filmeId=1'", por exemplo.</li>
+									</ul>
+									<img src="img/listagem.png" style="border:1px #000 solid"/>
+								</div>							
+							</div>
+						</div>
+					</div>
+					<div id="questao3">
+						<h1>Questão 2</h1>
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">Locadora</h3>
+							</div>
+							<div class="panel-body">
+								<div>
+									<h3>Detalhes do título</h3>
+									<p>Faça um script que exiba os detalhes de um título escolhido na listagem da locadora virtual</p>
+									<p>OBS:</p>
+									<ul>
+										<li>Utilize o arquivo HTML disponibilizado</li>
+										<li>Há uma função para pegar o filme.id da url, função getUrlVars() disponível no arquivo</li>
+									</ul>
+									<img src="img/detalhe.png" style="border:1px #000 solid"/>
+								</div>							
+							</div>
+						</div>
+					</div>
+					<div id="questao4">
+						<h1>Questão 3</h1>
+						<p>
+							Um grupo de artesãos decidiu expandir seus negócios através de um site de vendas - ArtCom. Programe o módulo de cálculo de frete, conforme as seguintes regras de negócio:
+						</p>
+						<ul>
+							<li>O site só atenderá clientes que residam na faixa de CEP entre 20.000 e 30.000. Para os demais, o ArtCom irá exibir um popup com a seguinte mensagem: <br />"Prezado cliente, <br/> Lamentamos, pois estamos em fase de expansão e por enquanto não atendemos sua região. <br/> Atenciosamente, ArtCom"</li>
+							<li>Por se tratar de um varejo de artesãos, só serão aceitos pedidos de no máximo 20 volumes por produto. Caso o cliente compre além, o site deve exibir um popup com a seguinte mensagem: <br />"Prezado cliente, <br />Somos um pequeno varejo destinado a atender consumidores domésticos. <br/>Atenciosamente, ArtCom.".</li>
+							<li>O cálculo do frete deverá ser feito da seguinte forma: <br/> CEP entre 20.000 e 25.000, R$5,00 + R$1,00 por volume<br/> CEP entre 25.000 e 30.000, R$7,50 + R$1,25 por volume</li>
+							<li>O valor total da compra é o valor dos produtos + frete</li>
+							<li>Os tipos de objetos devem ser escolhidos a partir de um array de itens: <br />
+								itens = [
+										{ <br />
+										"id" : "1",<br />
+										"nome": "Vaso",<br />
+										"dimensao": "10x30cm",<br />
+										"material": "ceramica",<br />
+										"artesao": "Ronaldo Moreira",<br />
+										"valor": "20"<br />
+										}, ...]
+							</li>
+						</ul>
+						<p>
+							Seu formulário deverá validar os dados de entrada, avisando caso a entrada seja inválida.
+						</p>
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">Vendas - ArtCom</h3>
+							</div>
+							<div class="panel-body">
+								<div>
+									<h3>Cálculo de Frete</h3>
+									
+									<div class="form-group">
+										<label>Nome</label>
+										<input type="text" placeholder="Nome" />
+									</div>
+									<div class="form-group">
+										<label>CEP</label>
+										<input type="text" placeholder="Código postal" />
+									</div>
+									<hr />
+										
+									<h4>Adicionar a lista</h4>
+									<div class="form-group">
+										<label>Produto</label>
+										<select id="produtosCmb"><option value="item.id">item.nome</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label>Quantidade</label>
+										<input type="text" />
+									</div>
+									<div class="form-group">
+										<button class="btn btn-success">Adicionar</button>
+									</div>
+										<h4>Lista de Compras</h4>
+										<table class="table table-striped">
+											<tr>
+												<th>Produto</th>
+												<th>Quantidade</th>
+												<th>Valor Unitário</th>
+												<th>Valor Total</th>
+												<th></th>
+											</tr>
+											<tr>
+												<td>Vaso cerâmico</td>
+												<td>2</td>
+												<td>R$ 20,00</td>
+												<td>R$ 40,00</td>
+												<td><span class="glyphicon glyphicon-trash"></span></td>
+											</tr>
+											<tr>
+												<td>Porta chapéus</td>
+												<td>1</td>
+												<td>R$ 50,00</td>
+												<td>R$ 50,00</td>
+												<td><span class="glyphicon glyphicon-trash"></span></td>
+											</tr>
+											<tr>
+												<td colspan="3">Total</td>
+												<td colspan="2"> R$ 90,00</td>
+											</tr>
+										</table>
+  											
+										<button type="submit" class="btn btn-success">Finalizar compra</button>
+										<h4>O total a ser pago é R$[total]</h4>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<aside class="col-md-2">
+					<h3>Questões</h3>
+					<ol>
+						<!--
+						<li><a id="lnkQuestao1">Loja Virtual - Frete</a></li> 
+						-->
+						<li><a id="lnkQuestao2">Locadora - Lista de Filmes</a></li>
+						<li><a id="lnkQuestao3">Locadora - Detalhes de Filme</a></li>
+						<li><a id="lnkQuestao4">Cálculo de Frete</a></li>
+						<!--<li><a id="lnkQuestao4">JQuery & plugin</a></li>-->
+					</ol>
+				</aside>
+			</div>
+		</div>
+	</body>
+</html>
